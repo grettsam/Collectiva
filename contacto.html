@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Collectiva &mdash; i+D</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER INIT-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="images/logo.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link" href="#">CALENDARIO ACTIVIDADES</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  NOTICIAS
+                                </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Investigadores</a></li>
+                                <li><a class="dropdown-item" href="#">Empresas</a></li>
+
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link" href="contacto.html">LOGIN</a>
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i> BUSCAR</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="hero__info">
+                <h1 class="hero__titulo">CONTÁCTANOS</h1>
+            </div>
+        </section>
+    </header>
+    <!-- HEADER END -->
+    <!-- CONTENT INIT -->
+    <main>
+        <div class="contacto container p-5">
+            <h3>Formulario de Contacto</h3>
+            <hr>
+            <form action="" method="post" class="my-5">
+                <div class="row">
+                    <div class=" col-md-6form-label mb-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class=" col-md-6form-label mb-3">
+                        <label for="telefono">Teléfono</label>
+                        <input type="number" class="form-control" id="telefono" placeholder="Ingresa tu teléfono">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="email" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escribe mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="contacto--button">Enviar</button>
+
+            </form>
+        </div>
+    </main>
+    <!-- CONTENT END -->
+    <!-- FOOTER INIT -->
+    <footer>
+        <div class="row">
+            <div class="col-md-2 logo d-flex justify-content-center">
+                <img src="images/Logo2blanco.png" alt="">
+            </div>
+            <div class="col-md-10 d-flex align-items-center justify-content-center">
+                <div class="row d-flex justify-content-between text-center">
+                    <div class="col-md-4 text-start mt-3 footer-1">
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Avenida Siempre Viva 546. Springfield</li>
+                            <li><i class="fas fa-phone-alt"></i> +56 9 12345678</li>
+                            <li><i class="fas fa-envelope-open-text"></i> conecta@collectiva.cl
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mt-3 footer-2">
+                        <h5>Redes Sociales</h5>
+                        <div class="d-flex justify-content-evenly mt-3">
+                            <a href="/"><i class="fab fa-twitter"></i></a>
+                            <a href="/"><i class="fab fa-youtube"></i></a>
+                            <a href="/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-end mt-3 footer-3">
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Avenida Siempre Viva 546. Springfield</li>
+                            <li><i class="fas fa-phone-alt"></i> +56 9 12345678</li>
+                            <li><i class="fas fa-envelope-open-text"></i> conecta@collectiva.cl
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center"><small>Collectiva ©2021</small></p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
